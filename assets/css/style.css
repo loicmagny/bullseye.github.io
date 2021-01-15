@@ -1,0 +1,114 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:300,500&display=swap");
+
+html,
+body {
+    height: 100%;
+}
+
+#weapons,
+#accessories,
+#tools,
+#clothes,
+#filters,
+#register {
+    display: none;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.nav-wrapper,
+.page-footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #3E3F3A;
+}
+
+.sidenav {
+    background-color: #3E3F3A;
+}
+
+#mobile-demo>li:nth-child(7)>a,
+#mobile-demo>li:nth-child(8)>a {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+#logo {
+
+    width: 4rem;
+    height: 4rem;
+}
+
+#filters,
+.jumbotron {
+    margin-top: 2rem;
+    padding: 35px;
+    font-family: "Poppins";
+    font-weight: 300;
+    font-size: 18px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0px 3px 80px -30px rgba(13, 81, 134, 1);
+}
+
+
+.wrapper {
+    flex: 1 0 auto;
+}
+
+.page-footer {
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center
+}
+
+.cart-item-title {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.card-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 1rem;
+}
+
+.card .card-title {
+    font-size: 20px;
+}
+
+.product-img {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#register {
+    padding: 24px;
+}
+
+p,
+span,
+input,
+li,
+ul,
+a {
+    font-family: 'Fira Code', monospace;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    font-family: 'Oswald', sans-serif;
+}
